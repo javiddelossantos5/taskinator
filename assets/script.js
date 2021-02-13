@@ -208,7 +208,7 @@ var deleteTask = function(taskId) {
 
     //reassign task array to be the same as updatedTaskArr
     tasks = updatedTaskArr
-    savedTasks();
+    saveTasks();
 };
 
 var editTask = function(taskId) {
