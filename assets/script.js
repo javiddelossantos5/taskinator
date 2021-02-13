@@ -103,7 +103,7 @@ var createTaskEl = function(taskDataObj) {
 
         case "in progress":
           taskActionsEl.querySelector("select[name='status-change']").selectedIndex = 1;
-          tasksInProgressEl.append(listItemEl);
+          taskInProgressEl.append(listItemEl);
           break;
 
         case "completed":
